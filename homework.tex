@@ -31,6 +31,14 @@
 \renewcommand\thesection{\Roman{section}}
 %\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
 
+\usepackage{titlesec}
+\titleformat{\section}[frame]{\normalfont}
+{\footnotesize \enspace SECTION \thesection
+	\enspace}{6pt}{\large\bfseries\filcenter}
+\titlespacing*{\section}{1pc}{*4}{*2.3}[1pc]
+
+
+
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 
 \begin{document}
